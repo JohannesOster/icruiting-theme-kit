@@ -112,7 +112,7 @@ body {
 }
 
 .icruiting .radio-option-container,
-.checkbox-option-container {
+.icruiting .checkbox-option-container {
   display: grid;
   grid-auto-flow: column;
   column-gap: 4px;
@@ -121,7 +121,7 @@ body {
 }
 
 .icruiting .radio-option-label,
-.checkbox-option-label {
+.icruiting .checkbox-option-label {
   font-family: var(--font-family-primary);
   font-size: 14px;
   font-weight: 400;
@@ -130,6 +130,7 @@ body {
 
 .icruiting .submit-button {
   background: none;
+  cursor: pointer;
   background-color: var(--color-primary);
   padding: 8px 16px 10px;
   border-radius: 2px;
