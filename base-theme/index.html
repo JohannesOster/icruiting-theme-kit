@@ -4,13 +4,14 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./custom.css" />
   </head>
   <body>
     <form class="icruiting">
       <div class="field-container">
         <label>Textfeld<span class="req">*</span></label>
         <span class="desc">Beschreibungstext</span>
-        <input placeholder="Textfeld" type="text" required />
+        <input placeholder="Textfeld" type="date" required />
       </div>
       <div class="field-container">
         <label>Textarea<span class="req">*</span></label>
@@ -31,12 +32,27 @@
         <span class="desc">Beschreibungstext</span>
         <div class="radio-options-container">
           <div class="radio-option-container">
-            <input name="radio" type="radio" value="Option-1" checked />
-            <span class="radio-option-label">Option-1</span>
+            <input
+              name="radio"
+              type="radio"
+              value="Option-1"
+              id="radio-option-1"
+              checked
+            />
+            <label for="radio-option-1" class="radio-option-label">
+              Option-1
+            </label>
           </div>
           <div class="radio-option-container">
-            <input name="radio" type="radio" value="Option-2" />
-            <span class="radio-option-label">Option-2</span>
+            <input
+              name="radio"
+              type="radio"
+              value="Option-2"
+              id="radio-option-2"
+            />
+            <label for="radio-option-2" class="radio-option-label">
+              Option-2
+              </label>
           </div>
         </div>
       </div>
@@ -45,12 +61,21 @@
         <span class="desc">Beschreibungstext</span>
         <div class="checkbox-options-container">
           <div class="checkbox-option-container">
-            <input type="checkbox" value="Option-1" />
-            <span class="checkbox-option-label">Option-1</span>
+            <input
+              type="checkbox"
+              value="Option-1"
+              id="Radio-Option-1"
+              required
+            />
+            <label for="Radio-Option-1" class="checkbox-option-label">
+              Option-1
+              </label>
           </div>
           <div class="checkbox-option-container">
-            <input type="checkbox" value="Option-2" />
-            <span class="checkbox-option-label">Option-2</span>
+            <input type="checkbox" value="Option-2" id="Radio-Option-2" />
+            <label for="Radio-Option-2" class="checkbox-option-label">
+              Option-2
+            </label>
           </div>
         </div>
       </div>
@@ -67,6 +92,12 @@
       <div>
         <!-- Set button class="submit-button loading" to see loading state -->
         <button type="submit" class="submit-button">
+          <span class="submitt-button-label">Absenden</span>
+          <div class="spinner-container">
+            <span class="spinner"></span>
+          </div>
+        </button>
+        <button type="submit" class="submit-button loading">
           <span class="submitt-button-label">Absenden</span>
           <div class="spinner-container">
             <span class="spinner"></span>
