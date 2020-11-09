@@ -1,0 +1,109 @@
+<html>
+  <head>
+    <title>icruiting-webform</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./custom.css" />
+  </head>
+  <body>
+    <form class="icruiting">
+      <div class="field-container">
+        <label>Textfeld<span class="req">*</span></label>
+        <span class="desc">Beschreibungstext</span>
+        <input placeholder="Textfeld" type="date" required />
+      </div>
+      <div class="field-container">
+        <label>Textarea<span class="req">*</span></label>
+        <span class="desc">Beschreibungstext</span>
+        <textarea placeholder="Textarea" required="required"></textarea>
+      </div>
+      <div class="field-container">
+        <label>Select<span class="req">*</span></label>
+        <span class="desc">Beschreibungstext</span>
+        <select required="required">
+          <option></option>
+          <option value="Option-1">Option-1</option>
+          <option value="Option-2">Option-2</option>
+        </select>
+      </div>
+      <div class="field-container">
+        <label>Radio<span class="req">*</span></label>
+        <span class="desc">Beschreibungstext</span>
+        <div class="radio-options-container">
+          <div class="radio-option-container">
+            <input
+              name="radio"
+              type="radio"
+              value="Option-1"
+              id="radio-option-1"
+              checked
+            />
+            <label for="radio-option-1" class="radio-option-label">
+              Option-1
+            </label>
+          </div>
+          <div class="radio-option-container">
+            <input
+              name="radio"
+              type="radio"
+              value="Option-2"
+              id="radio-option-2"
+            />
+            <label for="radio-option-2" class="radio-option-label">
+              Option-2
+              </label>
+          </div>
+        </div>
+      </div>
+      <div class="field-container">
+        <label>Checkbox<span class="req">*</span></label>
+        <span class="desc">Beschreibungstext</span>
+        <div class="checkbox-options-container">
+          <div class="checkbox-option-container">
+            <input
+              type="checkbox"
+              value="Option-1"
+              id="Radio-Option-1"
+              required
+            />
+            <label for="Radio-Option-1" class="checkbox-option-label">
+              Option-1
+              </label>
+          </div>
+          <div class="checkbox-option-container">
+            <input type="checkbox" value="Option-2" id="Radio-Option-2" />
+            <label for="Radio-Option-2" class="checkbox-option-label">
+              Option-2
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="field-container">
+        <label>Fileupload<span class="req">*</span></label>
+        <span class="desc">Beschreibungstext</span>
+        <input
+          type="file"
+          name="0ebb6a60-90a4-4962-8d6e-93e339977a83"
+          accept="application/pdf"
+          required
+        />
+      </div>
+      <div>
+        <!-- Set button class="submit-button loading" to see loading state -->
+        <button type="submit" class="submit-button">
+          <span class="submitt-button-label">Absenden</span>
+          <div class="spinner-container">
+            <span class="spinner"></span>
+          </div>
+        </button>
+        <button type="submit" class="submit-button loading">
+          <span class="submitt-button-label">Absenden</span>
+          <div class="spinner-container">
+            <span class="spinner"></span>
+          </div>
+        </button>
+      </div>
+    </form>
+  </body>
+</html>
