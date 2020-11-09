@@ -47,10 +47,10 @@ body {
 }
 
 .icruiting input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-input[type="date"] {
+.icruiting input[type="email"],
+.icruiting input[type="tel"],
+.icruiting input[type="number"],
+.icruiting input[type="date"] {
   background: white;
   border: 1px solid var(--input-border);
   padding: 10px;
