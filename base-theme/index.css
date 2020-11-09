@@ -46,7 +46,11 @@ body {
   line-height: 20px;
 }
 
-.icruiting input[type="text"] {
+.icruiting input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"] {
   background: white;
   border: 1px solid var(--input-border);
   padding: 10px;
