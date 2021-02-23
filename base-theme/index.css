@@ -89,7 +89,7 @@ body {
   line-height: 20px;
 }
 
-.iccruiting textarea:focus {
+.icruiting textarea:focus {
   outline: none !important;
   border-color: var(--input-border-active);
 }
