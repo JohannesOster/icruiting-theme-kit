@@ -28,6 +28,15 @@ body {
   grid-row-gap: 5px;
 }
 
+.icruiting h3 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
 .icruiting label {
   font-family: var(--font-family-primary);
   font-size: 16px;
@@ -80,7 +89,7 @@ body {
   line-height: 20px;
 }
 
-.iccruiting textarea:focus {
+.icruiting textarea:focus {
   outline: none !important;
   border-color: var(--input-border-active);
 }
